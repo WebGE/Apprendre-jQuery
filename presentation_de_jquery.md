@@ -1,4 +1,4 @@
-# Présentation de jQuery
+# Présentation du framework jQuery
 
 jQuery est une bibliothèque JavaScript libre et multi-plateforme créée pour faciliter l'écriture de scripts côté client dans le code HTML. La première version a été lancée en janvier 2006 par John Resig (un petit génie du JavaScript).
 
