@@ -1,6 +1,6 @@
 # Présentation de jQuery
 
-jQuery est une bibliothèque JavaScript libre et multi-plateforme créée pour faciliter l'écriture de scripts côté client dans le code HTML. La première version est lancée en janvier 2006 par John Resig (un petit génie du JavaScript).
+jQuery est une bibliothèque JavaScript libre et multi-plateforme créée pour faciliter l'écriture de scripts côté client dans le code HTML. La première version a été lancée en janvier 2006 par John Resig (un petit génie du JavaScript).
 
 La bibliothèque contient notamment les fonctionnalités suivantes :
 
@@ -12,7 +12,7 @@ La bibliothèque contient notamment les fonctionnalités suivantes :
 * Plugins ;
 * Utilitaires
 
-Pour vous faire un rapide comparatif d'écriture, voici des exemples comparant jQuery à JavaScript.
+Les exemples ci-dessous permettent de comparer la syntaxe du framework jQuery à celle du langage JavaScript.
 
 ** Évènements **
 ```js
