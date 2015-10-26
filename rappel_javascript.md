@@ -1,9 +1,9 @@
-# Rappels JavaScript
+# Rappels sur le langage JavaScript
 
 
-jQuery est un framework JavaScript, il est donc essentiel de comprendre un minimum ce langage pour progresser plus facilement.
+jQuery est un framework JavaScript. Il est essentiel de connaître les bases de ce langage pour mieux l'appréhender.
 
-Rassurez-vous, rien de bien compliqué à l'horizon. Nous verrons uniquement les bases nécessaires à tout bon intégrateur web désireux de progresser.
+Rassurez-vous, rien de bien compliqué. Nous verrons uniquement ce qui est nécessaire à tout bon intégrateur web désireux de progresser.
 
 Voici un bref aperçu de ce que nous aborderons dans cette partie :
 
