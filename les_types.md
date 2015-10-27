@@ -2,7 +2,7 @@
 
 ## Les chaînes de caractères ou "string"
 
-Ce type représente n’importe quel texte.
+Ce type représente un texte quelconque.
 On peut l'assigner de deux façons différentes.
 
 **Avec des guillemets**
@@ -16,30 +16,30 @@ maVariable = "J'aime JavaScript";
 maVariable = 'J\'aime JavaScript';
 ```
 
-**Attention**, si vous voulez des apostrophes pour déclarer votre variable et que vous utilisez des apostrophes dans le texte vous devez échapper les derniers avec le caractère `\` (antislash).
+**Attention**, si vous utilisez des apostrophes dans la déclaration et que le texte en contient aussi, vous devez échapper les apostrophes contenus dans le texte avec le caractère `\` (antislash).
 Dans le cas contraire, JavaScript pensera que le code s’arrête à la première apostrophe et produira une erreur.
 
 ## Le type numérique ou "number"
 
-Ce type de variable représente tout nombre  que ce soit un entier, un négatif, un nombre scientifique, etc.
+Ce type de variable représente tout les nombres (entiers et réels).
 
 ```js
 maVariable = 3;
 ```
 
-Un chiffre décimal se déclare avec un point comme séparateur et non une virgule.
+Le séparateur utilisé pour les nombres réels est le point et non la virgule.
 ```js
 maVariable = 3.5;
 ```
 
-**Attention**, si vous écrivez le nombre entre guillemets ou avec apostrophes, il sera reconnu comme une chaîne de caractères.
+**Attention**, si vous placez un nombre entre guillemets ou entre apostrophes, il sera reconnu comme une chaîne de caractères.
 ```js
 maVariable = '3'; // Chaîne de caractères
 ```
 
 ## Les booléens
 
-Désigne un paramètre qui peut avoir comme valeur **true** ou **false**.
+Un booléen désigne une variable ne pouvant prendre que deux valeurs **true** ou **false**.
 
 Lorsque :
 
@@ -51,7 +51,7 @@ la valeur de l'objet est initialisée à `False`.
 
 Dans tous les autres cas, l'objet Boolean possédera la valeur `True`.
 
-Ces deux états s'écrivent de la façon suivante :
+Une variable booléenne est assignée de la façon suivante :
 
 ```js
 var isTrue = true;
@@ -60,7 +60,7 @@ var isFalse = false;
 
 ## Test de type
 
-Nous pouvons vérifier le type de variable avec l’instruction **typeof**.
+Le type d'une variable se vérifie avec l’instruction **typeof**.
 
 La fonction **console.log()** affiche le résultat dans la [console](http://www.alsacreations.com/astuce/lire/1436-console-javascript.html) du navigateur.
 
@@ -75,7 +75,7 @@ var myVariable = false;
 console.log(typeof myVariable); // Affiche : « boolean »
 ```
 
-Nous pouvons tester l’existence de variable avec la même instruction.
+L’existence d'une variable se vérifie avec la même instruction.
 
 ```js
 console.log(typeof otherVariable); // Affiche : « undefined »
@@ -83,9 +83,9 @@ console.log(typeof otherVariable); // Affiche : « undefined »
 
 ## La convertion de type
 
-### Convertion type "string" en" number"
+### Convertion du type "string" en type "number"
 
-Dans certains cas de figure, nous pouvons avoir besoin de convertir une chaîne de caractères en nombre. La méthode `parseInt()` convertie une chaîne de caractères en nombre.
+Il peut être nécessaire de convertir une chaîne de caractères en un nombre. La méthode `parseInt()` effectue cette conversion.
 
 ```js
 var myVariable = '2',
@@ -93,9 +93,9 @@ var myVariable = '2',
 console.log(typeof n); // Affiche : « number »
 ```
 
-### Convertion type "number" en "string
+### Convertion du type "number" en un type "string"
 
-Pour convertir une chaîne de charactères en nombre, nous pouvons utiliser la méthode`.toString()`.
+La méthode `toString()` convertie un nombre en une chaîne de charactères.
 
 ```js
 var myVariable = 2,
